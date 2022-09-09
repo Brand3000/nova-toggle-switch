@@ -1,16 +1,16 @@
 ## Nova Toggle Switch Field
 
-A Laravel Nova toggle switch field
+A Laravel Nova toggle switch field. Adapted for Nova 4.
 ## Installation
 
 You can install the package into a Laravel app that uses Nova via composer:
 
 ```bash
-composer require naif/toggle
+composer require brand3000/nova-toggle-switch
 ```
 
 ## Usage:
-Add the below to Nova/User.php resource:
+Add the below to a nova resource:
 
 ```php
 
@@ -21,21 +21,6 @@ Toggle::make('Toggle')->color('#7e3d2f'),
 Toggle::make('Toggle')->color('#7e3d2f')->onColor('#7a38eb')->offColor('#ae0f04'),
     
 ```
-
-<img src="https://github.com/naifalshaye/toggle-switch/blob/master/screenshots/colors.png" width="142">
-
-<img src="https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image1.png" width="500">
-
-<img src="https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image2.png" width="500">
-
-<img src="https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image3.png" width="500">
-
-<img src="https://raw.githubusercontent.com/naifalshaye/toggle-switch/master/screenshots/image4.png" width="500">
-
-## Support:
-naif@naif.io
-
-https://www.linkedin.com/in/naif
 
 ## License
 

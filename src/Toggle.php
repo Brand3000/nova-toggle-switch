@@ -1,6 +1,6 @@
 <?php
 
-namespace Naif\Toggle;
+namespace Brand3000\Toggle;
 
 use Laravel\Nova\Fields\Field;
 

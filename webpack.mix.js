@@ -1,11 +1,10 @@
 let mix = require('laravel-mix')
 
-mix.setPublicPath('./')
+require('./nova.mix')
 
-mix.js('resources/js/field.js', 'dist/js')
-   .sass('resources/sass/field.scss', 'dist/css')
-    .webpackConfig({
-        resolve: {
-            symlinks: false
-        }
-    })
+mix
+  .setPublicPath('dist')
+  .js('resources/js/field.js', 'js')
+  .vue({ version: 3 })
+  .css('resources/css/field.css', 'css')
+  .nova('brand3000/toggle')

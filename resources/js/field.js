@@ -1,5 +1,9 @@
-Nova.booting((Vue, router) => {
-    Vue.component('index-toggle', require('./components/IndexField'));
-    Vue.component('detail-toggle', require('./components/DetailField'));
-    Vue.component('form-toggle', require('./components/FormField'));
+import IndexField from './components/IndexField'
+import DetailField from './components/DetailField'
+import FormField from './components/FormField'
+
+Nova.booting((app, store) => {
+  app.component('index-toggle', IndexField)
+  app.component('detail-toggle', DetailField)
+  app.component('form-toggle', FormField)
 })
