@@ -6,7 +6,7 @@ A Laravel Nova toggle switch field. Adapted for Nova 4.
 You can install the package into a Laravel app that uses Nova via composer:
 
 ```bash
-composer require brand3000/nova-toggle-switch
+composer require brand3000/nova-toggle-switch dev-master
 ```
 
 ## Usage:
